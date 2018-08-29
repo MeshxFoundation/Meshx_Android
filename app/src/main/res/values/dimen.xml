@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="back_icon_size">24dp</dimen>
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+
+    <dimen name="img_small">16dp</dimen>
+    <dimen name="img_normal">24dp</dimen>
+    <dimen name="img_normal_x">32dp</dimen>
+    <dimen name="img_large">48dp</dimen>
+    <dimen name="img_large_x">64dp</dimen>
+    <dimen name="img_large_xl">80dp</dimen>
+    <dimen name="img_large_xll">96dp</dimen>
+    <dimen name="img_qrcode">200dp</dimen>
+
+    <dimen name="page_hor_margin">10dp</dimen>
+
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_smallest">10sp</dimen>
+    <dimen name="text_size_min">5sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_large_x">18sp</dimen>
+    <dimen name="text_size_large_xl">20sp</dimen>
+    <dimen name="text_size_large_xll">30sp</dimen>
+
+    <dimen name="text_size_btn">16sp</dimen>
+
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp45">45dp</dimen>
+    <dimen name="dp64">64dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="dp100">100dp</dimen>
+
+
+    <dimen name="px1">1px</dimen>
+</resources>

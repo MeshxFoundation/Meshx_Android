@@ -1,0 +1,14 @@
+<resources>
+    <string name="loading_login">Signing in, please wait</string>
+    <string name="loading_register">Registering, please wait</string>
+    <string name="loading_search">Looking for, please wait</string>
+    <string name="loading_add">Adding, please wait</string>
+    <string name="loading_delete">Deleting, please wait</string>
+    <string name="loading_default">Loading, please wait</string>
+
+
+    <string name="error_user_password">Username or password is incorrect</string>
+    <string name="error_register_passName">The account already exists</string>
+    <string name="error_network">Server network error</string>
+    <string name="error_net_connection">Please check the network</string>
+</resources>

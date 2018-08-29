@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'org.greenrobot.greendao'
+//green dao
+greendao {
+    schemaVersion 1
+    daoPackage 'com.pgy.meshim.database'
+    targetGenDir 'src/main/java'
+}
+
+android {
+    compileSdkVersion proj.compileSdk
+    buildToolsVersion proj.buildTool
+
+    defaultConfig {
+        applicationId "com.pgy.meshim"
+        minSdkVersion proj.minSDK
+        targetSdkVersion proj.targetSDK
+        versionCode proj.versionCode
+        versionName proj.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //test
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //circle image view
+    implementation 'de.hdodenhof:circleimageview:2.0.0'
+    //constraint layout
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha1'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+    implementation sup.SupportDesign
+    //green dao
+    api 'org.greenrobot:greendao:3.2.2'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+    implementation 'top.zibin:Luban:1.1.7'
+    implementation 'com.github.autume:syd-camera:v1.0.0'
+    implementation project(':xmpplib')
+    api 'me.dm7.barcodescanner:zxing:1.8.4'
+}

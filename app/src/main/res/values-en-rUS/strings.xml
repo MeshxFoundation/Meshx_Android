@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name">Meshx</string>
+
+    <string name="user_cancel">Cancel</string>
+    <string name="exit_app_hint">One more exit</string>
+
+    <string name="error_no_permission">No permission</string>
+    <string name="error_unknown">Error!</string>
+
+    <string name="tips">Hint</string>
+
+    <string name="btn_sure">OK</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Time -->
+    <string name="yesterday">yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- 登录 -->
+    <string name="login_account">Account</string>
+    <string name="login_account_hint">Enter Account</string>
+    <string name="login_password">Password</string>
+    <string name="login_password_hint">Enter Password</string>
+    <string name="login">Log In</string>
+    <string name="login_forget_password">Forget Password</string>
+    <string name="login_register">Sign Up</string>
+    <!--<string name="login_pass_name_null_hint">账号不能为空</string>-->
+    <!--<string name="login_password_null_hint">密码不能为空</string>-->
+
+    <!-- 注册 -->
+    <string name="activity_register">Sign Up</string>
+    <string name="activity_btn_register">Sign Up</string>
+    <string name="activity_register_success">Success</string>
+    <string name="register_password_again_hint">Enter Password</string>
+
+    <!-- 首页 -->
+    <string name="main_fragment_home">Home</string>
+    <string name="main_fragment_home_no_message">no Messages~</string>
+    <string name="main_fragment_home_no_friend">No People,Add People~</string>
+    <string name="main_fragment_home_add_friend">Add People</string>
+    <string name="main_fragment_people">People</string>
+    <string name="main_fragment_wallet">Wallet</string>
+    <string name="main_fragment_discovery">Discover</string>
+    <string name="main_fragment_me">Me</string>
+    <string name="main_fragment_logout">Log Out</string>
+    <string name="main_fragment_langunge">Language</string>
+    <string name="main_fragment_langungeforchinese">简体中文</string>
+    <string name="main_fragment_langungeforenglish">English</string>
+    <string name="main_fragment_langungeforspanish">Español</string>
+    <string name="main_fragment_about_us">About us</string>
+    <string name="main_fragment_net_setting">Wireless settings</string>
+    <string name="main_fragment_networkless_communication">Networkless Communication</string>
+    <string name="main_fragment_networkless_communication_hint">Wireless communication has been turned off for \"Meshx\", which you can turn on in wireless settings</string>
+
+    <!--个人信息 -->
+    <string name="infotmation_user_photo">Avatar</string>
+    <string name="infotmation_name">Name</string>
+    <string name="infotmation_qr_code">My QR Code</string>
+    <string name="infotmation_more">More</string>
+    <string name="infotmation_infotmation">Information</string>
+    <string name="infotmation_complete">Done</string>
+    <string name="setname_setname">Set Nickname</string>
+    <!--更多设置-->
+    <string name="setingmore_more">More</string>
+    <!-- 人脉 -->
+    <string name="fragment_people_search">Search</string>
+    <string name="fragment_people_new_friend">New Friends</string>
+
+    <!--钱包-->
+    <string name="fragment_wallet_total_amount">Assets(%1s)</string>
+    <string name="fragment_wallet_select_currency">Choice of currency</string>
+    <string name="fragment_wallet_currency_cny">CNY</string>
+    <string name="fragment_wallet_currency_usd">USD</string>
+    <string name="fragment_wallet_add_amount">Add new Assets</string>
+    <string name="fragment_wallet_create">Create</string>
+    <string name="fragment_wallet_import">Import</string>
+    <string name="fragment_wallet_manager">Manager</string>
+    <string name="fragment_wallet_transform">Send</string>
+    <string name="fragment_wallet_receipt">Recv</string>
+    <string name="fragment_wallet_manager_title">Manager</string>
+    <string name="fragment_wallet_export">Backup/Export</string>
+    <string name="fragment_wallet_export_way">Select backup/export wallet</string>
+    <string name="fragment_wallet_delete">Delete</string>
+    <string name="fragment_wallet_tip">After wallet is deleted,<font color='#FF6600'>Cannot be undone</font>，Please make sure wallet has been backed up.\n</string>
+    <string name="fragment_wallet_verify">Password Verification</string>
+    <string name="fragment_wallet_verify_error">Verify password error</string>
+    <string name="fragment_wallet_unit_eth">Ξ %1s</string>
+    <string name="fragment_wallet_price">≈%1s %2s</string>
+    <string name="fragment_wallet_total_assets">%1s %2s</string>
+
+    <!--创建钱包-->
+    <string name="activity_wallet_gen_name">Name</string>
+    <string name="activity_wallet_gen_tip1">* Passwords are used for privacy protection and transaction authorization, and strength is very important\n* Meshx doesn\'t store passwords and can\'t retrieve them for you, so keep in mind</string>
+    <string name="activity_wallet_gen_name_hint">Enter Name</string>
+    <string name="activity_wallet_gen_password">Pwd</string>
+    <string name="activity_wallet_gen_password_hint">Enter PWD</string>
+    <string name="activity_wallet_gen_password_repeat">Password Verification</string>
+    <string name="activity_wallet_gen_password_repeat_error">Password Not Equal</string>
+    <string name="activity_wallet_gen_success">Created</string>
+    <string name="activity_wallet_gen_failed">Error</string>
+    <string name="activity_wallet_gen_password_repeat_hint">Password Verification</string>
+    <string name="activity_wallet_gen_password_tip">Hint</string>
+    <string name="activity_wallet_gen_password_tip_hint">Hint（Optional）</string>
+    <string name="activity_wallet_gen_tip">Please keep the password properly.Cannot Reback</string>
+    <string name="activity_wallet_gen_password_hint_length">must be more than 8.</string>
+
+    <!-- 钱包信息 -->
+    <string name="activity_wallet_info">Wallet information</string>
+    <string name="activity_wallet_info_address">Wallet address</string>
+    <string name="activity_wallet_info_qrcode">Wallet QR code</string>
+    <string name="activity_wallet_info_name">Wallet name</string>
+    <string name="activity_wallet_info_password_hint">Password hint</string>
+    <string name="activity_wallet_info_export">Backup/export wallet</string>
+    <string name="activity_wallet_info_after">Later</string>
+    <string name="activity_wallet_info_tip">It is highly recommended to back up and keep your mxt key and wallet password safe, otherwise you will not be able to retrieve it if you lose it!</string>
+
+    <!--导入钱包-->
+    <string name="activity_wallet_import_private_key">Private Key</string>
+    <string name="activity_wallet_import_mnemonic">Mnemonic</string>
+    <string name="activity_wallet_import_key_store">Key Store</string>
+    <string name="activity_wallet_import_private_key_hint">Enter Private Key</string>
+    <string name="activity_wallet_import_keystore_hint"> Enter Keystore JSON</string>
+    <string name="activity_wallet_import_keystore_password_hint">Enter Password</string>
+    <string name="activity_wallet_import_success">Success</string>
+    <string name="activity_wallet_import_mnemonic_hint">Enter the mnemonic here, separated by spaces</string>
+    <string name="load_wallet_by_mnemonic_standard_jaxx_option">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger_option">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_custom_option">m/44\'/60\'/1\'/0/0 Custom path</string>
+    <string name="load_wallet_by_mnemonic_standard">m/44\'/60\'/0\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger">m/44\'/60\'/0\'/0</string>
+    <string name="load_wallet_by_mnemonic_standard_custom">m/44\'/60\'/1\'/0/0</string>
+
+    <!--导出钱包-->
+    <string name="activity_wallet_export_private_key">Export Private Key</string>
+    <string name="activity_wallet_export_keystore">Export Keystore</string>
+    <string name="activity_wallet_export_mnemonic">Export Mnemonic</string>
+    <string name="activity_wallet_export_private_key_label">Keystore</string>
+    <string name="activity_wallet_export_private_key_send">Send Keystore</string>
+    <string name="activity_wallet_export_keystore_copy">Copy Keystore</string>
+    <string name="activity_wallet_export_private_key_qrcode">Keystore QRCode</string>
+    <string name="activity_wallet_export_mnemonic_tip">Copy your wallet mnemonic</string>
+    <string name="activity_wallet_export_mnemonic_tip2">The mnemonic is used to reply to the wallet or reset the wallet password, copy it accurately onto paper, and store it in a safe place that only you know.</string>
+    <string name="activity_wallet_export_private_key_tip">Warning：Private Key is not safe，Keystore backup recommend</string>
+    <string name="activity_wallet_export_keystore_tip">Important note: 1. Please keep it offline; 2. Do not use network transmission; 3. The qr code is forbidden to save, screenshots and photos to ensure that no one is scanning the code in the surrounding area. </string>
+    <string name="activity_wallet_export_keystore_copy_success">Copy Keystore</string>
+    <string name="activity_wallet_export_private_copy_success">Copy Keystore</string>
+    <string name="activity_wallet_export_btn_next">Next</string>
+
+    <!-- 助记词确认 -->
+    <string name="verify_mnemonic_tip1">Confirm your wallet mnemonic</string>
+    <string name="verify_mnemonic_tip2">Please click on the mnemonic in order to confirm that your backup mnemonic is correct.</string>
+    <string name="verify_mnemonic_failed">Verification  failed, please check your mnemonic</string>
+    <string name="verify_mnemonic_success">Verification success</string>
+
+    <!-- 钱包转账 -->
+    <string name="activity_transaction">%1sSend</string>
+    <string name="activity_transaction_address">Receiver&#039;s Address（Or Scan）</string>
+    <string name="activity_transaction_address_hint">Enter Receiver&#039;s Address</string>
+    <string name="activity_transaction_amount">Amount(Balance %1$s %2$s)</string>
+    <string name="activity_transaction_amount_hint">Enter Amount</string>
+    <string name="activity_transaction_mining">Mining Fee</string>
+    <string name="activity_transaction_mining_slow">Slow</string>
+    <string name="activity_transaction_mining_fast">Fast</string>
+    <string name="activity_transaction_confirm">Confirm to Send</string>
+    <string name="activity_transaction_mining_advance">advance</string>
+    <string name="activity_transaction_total_amount">Total Cost</string>
+    <string name="activity_transaction_remark">Note</string>
+    <string name="activity_transaction_remark_hint">Note</string>
+    <string name="activity_transaction_gas_price">Gas Price</string>
+    <string name="activity_transaction_gas_price_hint">Enter Gas Price</string>
+    <string name="activity_transaction_gas_limit">Gas Limit</string>
+    <string name="activity_transaction_gas_limit_hint">Enter Gas</string>
+    <string name="activity_transaction_send_amount">%1s %2s</string>
+    <string name="activity_transaction_gas_amount">%1s ETH</string>
+    <string name="activity_transaction_gas_gwei">%1s gwei</string>
+    <string name="activity_transaction_error_address_length">send address is not the wallet address.</string>
+    <string name="activity_transaction_error_receive_address_length">receive address is not the wallet address.</string>
+    <string name="activity_transaction_error_send_amount_format">Amount is invalid</string>
+    <string name="activity_transaction_error_send_amount">Must be greater than 0</string>
+    <string name="activity_transaction_error_gas_price">GasPrice Must be greater than 0</string>
+    <string name="activity_transaction_error_gas_limit">GasLimit Cannot be less than %1s</string>
+    <string name="activity_transaction_error_password">Enter PWD</string>
+    <string name="activity_transaction_detail">Details </string>
+    <string name="activity_transaction_success">Confirm to Send</string>
+
+    <!-- 钱包收款 -->
+    <string name="activity_wallet_receipt">Recv</string>
+    <string name="activity_wallet_receipt_address">Address</string>
+    <string name="activity_wallet_receipt_wallet_qrcode">Wallet QRCode</string>
+    <string name="activity_wallet_receipt_wallet_not_found">"The account does not exist</string>
+    <string name="activity_wallet_receipt_wallet_copy">Copy Address</string>
+    <string name="activity_wallet_receipt_scan_qr_code">Scan QR code payment</string>
+    <string name="activity_wallet_receipt_amount">Amount</string>
+    <string name="activity_wallet_receipt_copy">Copy payment address</string>
+
+    <!-- 交易记录 -->
+    <string name="activity_wallet_transaction_record_error">No transactions found</string>
+    <string name="activity_wallet_transaction_record_asses">Assets</string>
+    <string name="activity_wallet_transaction_record_income">Income</string>
+    <string name="activity_wallet_transaction_record_error_status">error</string>
+    <string name="activity_wallet_transaction_record_pay">Pay</string>
+    <string name="activity_wallet_transaction_record_translate">-%1s</string>
+
+    <!-- 交易记录明细 -->
+    <string name="activity_transaction_record_detail">Transaction Record</string>
+    <string name="activity_transaction_record_type">Type</string>
+    <string name="activity_transaction_record_from">Send</string>
+    <string name="activity_transaction_record_to">Recv</string>
+    <string name="activity_transaction_record_time">Time</string>
+    <string name="activity_transaction_record_remarks">Remarks</string>
+    <string name="activity_transaction_record_network">Network</string>
+    <string name="activity_transaction_record_block">Block #</string>
+    <string name="activity_transaction_record_gas_limit">Gas Limit</string>
+    <string name="activity_transaction_record_gas_price">Gas Price</string>
+    <string name="activity_transaction_record_transaction">Transaction #</string>
+    <string name="activity_transaction_record_transaction_success">Success</string>
+    <string name="activity_transaction_record_transaction_failed">error</string>
+
+    <!--我的-->
+    <string name="fragment_me_upload_failed">The size of the uploaded head is too large</string>
+
+    <!--我的-->
+    <string name="activity_qr_scan">Scanning for QR code...</string>
+
+    <!-- 添加好友 -->
+    <string name="activity_add_friend">Add People</string>
+    <string name="activity_add_friend_local">Search for friends</string>
+    <string name="activity_add_friend_no_result">Nothing</string>
+    <string name="activity_empty_keyword">Enter Account</string>
+    <string name="activity_add_friend_search_hint"> Enter Account</string>
+
+    <!-- 新的好友 -->
+    <string name="activity_new_friend">New Friends</string>
+    <string name="activity_new_friend_info">View</string>
+    <string name="activity_new_friend_agree">Add</string>
+    <string name="activity_new_friend_both">Added</string>
+    <string name="activity_new_friend_wait">Request sent</string>
+
+    <!-- 用户资料 -->
+    <string name="activity_user_info">Profile</string>
+    <string name="activity_user_info_btn_send">Send New Message</string>
+    <string name="activity_user_info_btn_add">Add People</string>
+    <string name="activity_user_info_btn_receive">Approve</string>
+    <string name="activity_user_info_btn_wait">Applied</string>
+    <string name="activity_user_info_send_success">Success</string>
+    <string name="activity_user_info_add_success">Success</string>
+    <string name="activity_user_info_delete">Delete</string>
+    <string name="activity_user_info_delete_success">Delete Success</string>
+
+    <!-- 聊天界面 -->
+    <string name="activity_chat_send">Send </string>
+    <string name="activity_chat_menu_copy">Copy</string>
+
+    <!-- 聊天设置-->
+    <string name="activity_chat_setting">Details</string>
+    <string name="activity_chat_setting_search_record">Search History</string>
+    <string name="activity_chat_setting_clear_record">Clear Chat History</string>
+    <string name="activity_chat_setting_clear_record_tip">Is it Clear?</string>
+    <string name="activity_chat_setting_clear_success">Clear Success</string>
+
+    <!-- 聊天搜索-->
+    <string name="activity_chat_search_hint">Search</string>
+
+
+    <!-- 申请权限相关 -->
+    <string name="permission_settings">Settings</string>
+
+    <string name="permission_help">Help</string>
+
+    <string name="permission_string_help_text">The current application lacks the necessary authority. \n\n please click \ "set \" - \ "permission \" - to open the required permissions. \nnn clicks the last two back buttons and returns.</string>
+
+    <string name="permission_quit">Cancel</string>
+    <!-- 发现界面-->
+    <string name="sex">Gender</string>
+    <string name="man">Gender Male</string>
+    <string name="woman">Gender Female</string>
+    <string name="all">ALL</string>
+    <string name="reset">Reset</string>
+    <string name="determine">OK</string>
+
+    <string name="location">Address</string>
+
+    <string name="ablout_us_ablout_usdesc">Meshx is an eccentric interconnected ecology which includes cooperation and collaboration between network access points based on network distribution. It has the characteristics of high speed bandwidth, dynamic self organization, self configuration, self maintenance and so on. It has the characteristics of fast deployment, easy installation, and non sight distance transmission (NLOS).</string>
+    <string name="ablout_us_other_content">Copyright 2016 ZMESH FOUNDATION SINGAPORE PTE.LTD. All right reserved</string>
+    <string name="ablout_us_version_check">Version detection</string>
+    <string name="ablout_us_version_code">Version  v%1$s</string>
+    <string name="ablout_us_other_other">Copyright 2016 ZMESH FOUNDATION SINGAPORE PTE.LTD. All right reserved</string>
+
+    <string name="setname_activity_editexthit">Name</string>
+    <string name="setname_activity_editexclear"> </string>
+</resources>

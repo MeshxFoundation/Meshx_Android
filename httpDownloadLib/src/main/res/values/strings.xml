@@ -1,0 +1,8 @@
+<resources>
+    <string name="error_with_msg">出错，%1$s</string>
+    <string name="error_data_null">数据有误!</string>
+    <string name="error_user_cancel">用户取消</string>
+    <string name="error_net_work">网络中断，请检查您的网络状态</string>
+    <string name="loading_default">正在加载...</string>
+
+</resources>

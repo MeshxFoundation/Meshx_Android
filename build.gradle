@@ -1,0 +1,52 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.2.30'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://dl.bintray.com/jetbrains/anko' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    verName = "1.0.0"//版本名称
+    proj = [
+            minSDK     : 21,//最低兼容版本
+            targetSDK  : 25,//目标版本
+            compileSdk : 27,//编译版本
+            buildTool  : "27.0.3",
+            versionName: "$verName",
+            versionCode: 1,//版本号
+    ]
+
+    supportLibraryVersion = "27.1.1"
+    sup = [
+            SupportV7            : "com.android.support:appcompat-v7:$supportLibraryVersion",
+            SupportV4            : "com.android.support:support-v4:$supportLibraryVersion",
+            SupportRecyclerviewV7: "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            SupportDesign        : "com.android.support:design:$supportLibraryVersion"
+    ]
+
+    kotlinVer = "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}

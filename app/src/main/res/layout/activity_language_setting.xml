@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/setgender_title"
+        layout="@layout/select_seting_title" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:button="@null"
+            android:drawableEnd="@drawable/selector_radio"
+            android:padding="@dimen/dp10"
+            android:text="@string/main_fragment_langungeforenglish" />
+
+        <RadioButton
+            android:id="@+id/rbSpanish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp1"
+            android:background="@color/white"
+            android:button="@null"
+            android:drawableEnd="@drawable/selector_radio"
+            android:padding="@dimen/dp10"
+            android:text="@string/main_fragment_langungeforspanish" />
+
+        <RadioButton
+            android:id="@+id/rbChinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp1"
+            android:background="@color/white"
+            android:button="@null"
+            android:drawableEnd="@drawable/selector_radio"
+            android:padding="@dimen/dp10"
+            android:text="@string/main_fragment_langungeforchinese" />
+
+    </RadioGroup>
+
+</LinearLayout>

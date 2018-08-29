@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    tools:context=".activity.SettingMoreActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_title" />
+
+    <TextView
+        android:id="@+id/settingmore_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableRight="@mipmap/me_fragmentnext"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp10"
+        android:paddingEnd="@dimen/dp20"
+        android:paddingStart="@dimen/dp20"
+        android:paddingTop="@dimen/dp10"
+        android:text="@string/sex"
+        android:textSize="@dimen/text_size_large_x"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/settingmore_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"
+        android:background="@color/white"
+        android:drawableRight="@mipmap/me_fragmentnext"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dp10"
+        android:paddingEnd="@dimen/dp20"
+        android:paddingStart="@dimen/dp20"
+        android:paddingTop="@dimen/dp10"
+        android:text="@string/location"
+        android:textSize="@dimen/text_size_large_x"
+        app:layout_constraintTop_toBottomOf="@+id/settingmore_gender" />
+
+</android.support.constraint.ConstraintLayout>

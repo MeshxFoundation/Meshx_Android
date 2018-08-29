@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/mefragment_ivuserbtn"
+        android:layout_width="match_parent"
+        android:background="@color/bg_dark_blue"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivUserBg"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/bg_dark_blue"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_weight="3"-->
+            <!--tools:ignore="MissingConstraints"-->
+            <!--tools:layout_editor_absoluteX="0dp" />-->
+        <!--
+                <View
+                    android:id="@+id/viewBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivUserBg"
+                    app:layout_constraintVertical_weight="2"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUser"
+            android:layout_width="@dimen/img_large_x"
+            android:layout_height="@dimen/img_large_x"
+            android:layout_marginLeft="@dimen/dp20"
+            android:src="@mipmap/icon_default_user"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="@dimen/dp20" />
+
+        <TextView
+            android:id="@+id/tvUsermid"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp10"
+            android:text="mid:xxxxxxx"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="@+id/ivUser"
+            app:layout_constraintLeft_toRightOf="@+id/ivUser" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp10"
+            android:text="username"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintLeft_toLeftOf="@+id/tvUsermid"
+            app:layout_constraintLeft_toRightOf="@+id/ivUser"
+            app:layout_constraintTop_toTopOf="@+id/ivUser" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/me_fragmentnext"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/btnlanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <ImageView
+            android:layout_width="@dimen/img_small"
+            android:layout_height="@dimen/img_small"
+            android:src="@mipmap/me_fragment_language" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/main_fragment_langunge"
+            android:textColor="@color/text_color_dark_black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/textlanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/me_fragmentnext"
+            android:gravity="center"
+            android:text="@string/main_fragment_langungeforenglish" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btnaboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <ImageView
+            android:layout_width="@dimen/img_small"
+            android:layout_height="@dimen/img_small"
+            android:src="@mipmap/me_fragment_pop" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/main_fragment_about_us"
+            android:textColor="@color/text_color_dark_black"
+            android:textSize="@dimen/text_size_normal" />
+
+
+        <TextView
+            android:id="@+id/textaboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/me_fragmentnext"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btnNetSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <ImageView
+            android:layout_width="@dimen/img_small"
+            android:layout_height="@dimen/img_small"
+            android:src="@mipmap/me_fragment_setting" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/main_fragment_net_setting"
+            android:drawableEnd="@mipmap/me_fragmentnext"
+            android:textColor="@color/text_color_dark_black"
+            android:textSize="@dimen/text_size_normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <ImageView
+            android:layout_width="@dimen/img_small"
+            android:layout_height="@dimen/img_small"
+            android:src="@mipmap/icon_logout" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/main_fragment_logout"
+            android:textColor="@color/text_color_dark_black"
+            android:textSize="@dimen/text_size_normal" />
+        <!--
+                <com.pgy.meshim.views.TriangleView
+                    android:layout_width="@dimen/dp10"
+                    android:layout_height="@dimen/dp10"
+                    app:TGStrokeWidth="@dimen/dp1"
+                    app:is_arrow="true"
+                    app:triangleColor="@color/black"
+                    app:triangleDirection="right" />-->
+    </LinearLayout>
+
+
+</LinearLayout>

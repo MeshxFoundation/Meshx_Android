@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    tools:context=".activity.MeinformationActivity">
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:id="@+id/information_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/infotmation_user_photo"
+            android:textColor="@color/text_color_setname"
+            android:textSize="@dimen/text_size_large_x" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/information_ivUser"
+            android:layout_width="@dimen/img_large_x"
+            android:layout_height="@dimen/img_large_x"
+            android:src="@mipmap/icon_default_user"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="@dimen/dp20" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@mipmap/me_fragmentnext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/px1"
+        android:id="@+id/btnameselect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/infotmation_name"
+            android:textColor="@color/text_color_setname"
+            android:textSize="@dimen/text_size_large_x" />
+
+        <TextView
+            android:id="@+id/texusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/me_fragmentnext"
+            android:gravity="center"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/px1"
+        android:id="@+id/btnqrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/infotmation_qr_code"
+            android:textColor="@color/text_color_setname"
+            android:textSize="@dimen/text_size_large_x" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@mipmap/icon_qrcode" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@mipmap/me_fragmentnext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnmore"
+        android:layout_marginTop="@dimen/px1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_weight="1"
+            android:text="@string/infotmation_more"
+            android:textColor="@color/text_color_setname"
+            android:textSize="@dimen/text_size_large_x" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@mipmap/me_fragmentnext" />
+    </LinearLayout>
+
+</LinearLayout>

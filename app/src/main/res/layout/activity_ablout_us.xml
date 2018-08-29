@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    tools:context=".activity.AbloutUsActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/common_title" />
+
+    <ImageView
+        android:id="@+id/ablout_logo"
+        android:layout_width="@dimen/img_large_x"
+        android:layout_height="@dimen/img_large_x"
+        android:layout_marginTop="@dimen/dp45"
+        android:src="@mipmap/icon_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/ablout_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp5"
+        android:lineSpacingMultiplier="2"
+        android:paddingTop="@dimen/dp10"
+        android:text="@string/ablout_us_version_code"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ablout_logo" />
+
+    <TextView
+        android:id="@+id/ablout_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:padding="@dimen/dp10"
+        android:text="@string/ablout_us_ablout_usdesc"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/text_size_large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ablout_version" />
+
+    <TextView
+        android:id="@+id/ablout_versioncheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp30"
+        android:background="@color/white"
+        android:padding="@dimen/dp10"
+        android:paddingLeft="@dimen/dp10"
+        android:text="@string/ablout_us_version_check"
+        android:textColor="@color/text_color_setname"
+        android:textSize="@dimen/text_size_large_x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ablout_desc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:gravity="center"
+        android:text="@string/ablout_us_other_other"
+        android:textColor="@color/text_color_gray"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

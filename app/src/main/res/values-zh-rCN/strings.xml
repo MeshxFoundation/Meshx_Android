@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">Meshx</string>
+
+    <string name="user_cancel">用户取消操作</string>
+    <string name="exit_app_hint">再按一次退出</string>
+
+    <string name="error_no_permission">不具备相关权限</string>
+    <string name="error_unknown">出现错误!</string>
+
+    <string name="tips">温馨提示</string>
+
+    <string name="btn_sure">确定</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- Time -->
+    <string name="yesterday">昨天</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+
+    <string name="developing">正在开发中…</string>
+
+    <!-- 登录 -->
+    <string name="login_account">用户名</string>
+    <string name="login_account_hint">请输入用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_register">注册</string>
+    <!--<string name="login_pass_name_null_hint">账号不能为空</string>-->
+    <!--<string name="login_password_null_hint">密码不能为空</string>-->
+
+    <!-- 注册 -->
+    <string name="activity_register">新用户注册</string>
+    <string name="activity_btn_register">注册</string>
+    <string name="activity_register_success">注册成功</string>
+    <string name="register_password_again_hint">请再次输入密码</string>
+
+    <!-- 首页 -->
+    <string name="main_fragment_home">首页</string>
+    <string name="main_fragment_home_no_message">暂无聊天信息~</string>
+    <string name="main_fragment_home_no_friend">暂无好友，快去添加好友吧~</string>
+    <string name="main_fragment_home_add_friend">添加好友</string>
+    <string name="main_fragment_people">人脉</string>
+    <string name="main_fragment_wallet">钱包</string>
+    <string name="main_fragment_discovery">发现</string>
+    <string name="main_fragment_me">我的</string>
+    <string name="main_fragment_logout">退出登录</string>
+    <string name="main_fragment_langunge">语言</string>
+    <string name="main_fragment_langungeforchinese">中文简体</string>
+    <string name="main_fragment_langungeforenglish">English</string>
+    <string name="main_fragment_langungeforspanish">Español</string>
+    <string name="main_fragment_about_us">关于我们</string>
+    <string name="main_fragment_net_setting">无网设置</string>
+    <string name="main_fragment_networkless_communication">无网通信</string>
+    <string name="main_fragment_networkless_communication_hint">已为\"Meshx\"关闭无线通信功能，您可以在无线设置中打开此功能</string>
+
+    <!--个人信息 -->
+    <string name="infotmation_user_photo">头像</string>
+    <string name="infotmation_name">名字</string>
+    <string name="infotmation_qr_code">我的二维码</string>
+    <string name="infotmation_more">更多</string>
+    <string name="infotmation_infotmation">个人信息</string>
+    <string name="infotmation_complete">完成</string>
+    <string name="setname_setname">设置名称</string>
+    <!--更多设置-->
+    <string name="setingmore_more">更多</string>
+    <!-- 人脉 -->
+    <string name="fragment_people_search">搜索</string>
+    <string name="fragment_people_new_friend">新的朋友</string>
+
+    <!--钱包-->
+    <string name="fragment_wallet_total_amount">总资产(%1s)</string>
+    <string name="fragment_wallet_select_currency">选择币种</string>
+    <string name="fragment_wallet_currency_cny">人民币</string>
+    <string name="fragment_wallet_currency_usd">美元</string>
+    <string name="fragment_wallet_add_amount">添加资产</string>
+    <string name="fragment_wallet_create">创建钱包</string>
+    <string name="fragment_wallet_import">导入钱包</string>
+    <string name="fragment_wallet_manager">管理</string>
+    <string name="fragment_wallet_transform">转账</string>
+    <string name="fragment_wallet_receipt">收款</string>
+    <string name="fragment_wallet_manager_title">钱包管理</string>
+    <string name="fragment_wallet_export">备份/导出钱包</string>
+    <string name="fragment_wallet_export_way">请选择备份/导出钱包方式</string>
+    <string name="fragment_wallet_delete">删除钱包</string>
+    <string name="fragment_wallet_tip">钱包删除后，<font color='#FF6600'>将无法撤消操作</font>，请确保已备份钱包私钥！\n</string>
+    <string name="fragment_wallet_verify">重要操作验证</string>
+    <string name="fragment_wallet_verify_error">钱包密码验证失败</string>
+    <string name="fragment_wallet_unit_eth">Ξ %1s</string>
+    <string name="fragment_wallet_price">≈%1s %2s</string>
+    <string name="fragment_wallet_total_assets">%1s %2s</string>
+
+    <!--创建钱包-->
+    <string name="activity_wallet_gen_name">钱包名称</string>
+    <string name="activity_wallet_gen_tip1">* 密码用于隐私保护和交易授权，强度非常重要\n* Meshx 不存储密码，也无法帮您找回，请务必牢记</string>
+    <string name="activity_wallet_gen_name_hint">请输入钱包名称</string>
+    <string name="activity_wallet_gen_password">钱包密码</string>
+    <string name="activity_wallet_gen_password_hint">请输入钱包密码</string>
+    <string name="activity_wallet_gen_password_repeat">再次输入密码</string>
+    <string name="activity_wallet_gen_password_repeat_error">两次输入的密码不一致</string>
+    <string name="activity_wallet_gen_success">创建成功</string>
+    <string name="activity_wallet_gen_failed">创建失败</string>
+    <string name="activity_wallet_gen_password_repeat_hint">请再次输入钱包密码</string>
+    <string name="activity_wallet_gen_password_tip">密码提示</string>
+    <string name="activity_wallet_gen_password_tip_hint">密码提示(可不填)</string>
+    <string name="activity_wallet_gen_tip">请妥善保管钱包密码，一旦丢失将无法找回</string>
+    <string name="activity_wallet_gen_password_hint_length">钱包密码长度必须为8位以上</string>
+
+    <!-- 钱包信息 -->
+    <string name="activity_wallet_info">钱包信息</string>
+    <string name="activity_wallet_info_address">钱包地址</string>
+    <string name="activity_wallet_info_qrcode">钱包二维码</string>
+    <string name="activity_wallet_info_name">钱包名称</string>
+    <string name="activity_wallet_info_password_hint">密码提示</string>
+    <string name="activity_wallet_info_export">备份/导出钱包</string>
+    <string name="activity_wallet_info_after">稍后再说</string>
+    <string name="activity_wallet_info_tip">强烈建议备份并妥善保管mxt秘钥和钱包密码，否则一旦丢失将无法找回!</string>
+
+    <!--导入钱包-->
+    <string name="activity_wallet_import_private_key">私钥</string>
+    <string name="activity_wallet_import_mnemonic">助记词</string>
+    <string name="activity_wallet_import_key_store">官方钱包</string>
+    <string name="activity_wallet_import_private_key_hint">请输入私钥</string>
+    <string name="activity_wallet_import_keystore_hint">请输入Keystore文件内容</string>
+    <string name="activity_wallet_import_keystore_password_hint">请输入Keystore密码</string>
+    <string name="activity_wallet_import_success">导入成功</string>
+    <string name="activity_wallet_import_mnemonic_hint">请输入助记词，用空格分割</string>
+    <string name="load_wallet_by_mnemonic_standard_jaxx_option">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger_option">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="load_wallet_by_mnemonic_standard_custom_option">m/44\'/60\'/1\'/0/0 自定义路径</string>
+    <string name="load_wallet_by_mnemonic_standard">m/44\'/60\'/0\'/0/0</string>
+    <string name="load_wallet_by_mnemonic_standard_ledger">m/44\'/60\'/0\'/0</string>
+    <string name="load_wallet_by_mnemonic_standard_custom">m/44\'/60\'/1\'/0/0</string>
+
+    <!--导出钱包-->
+    <string name="activity_wallet_export_private_key">导出私钥</string>
+    <string name="activity_wallet_export_keystore">导出Keystore</string>
+    <string name="activity_wallet_export_mnemonic">导出助记词</string>
+    <string name="activity_wallet_export_private_key_label">私钥</string>
+    <string name="activity_wallet_export_private_key_send">发送私钥</string>
+    <string name="activity_wallet_export_keystore_copy">复制Keystore</string>
+    <string name="activity_wallet_export_private_key_qrcode">私钥二维码</string>
+    <string name="activity_wallet_export_private_key_tip">安全警告：私钥未经加密，导出存在风险，建议使用助记词和Keystore进行备份。</string>
+    <string name="activity_wallet_export_mnemonic_tip">抄写下你的钱包助记词</string>
+    <string name="activity_wallet_export_mnemonic_tip2">助记词用于回复钱包或重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方。</string>
+    <string name="activity_wallet_export_keystore_tip">重要提示：1.请离线保存；2.请勿使用网络传输；  3.二维码禁止保存、截图和拍照，确保在四周无人和摄像头环境下扫码。 </string>
+    <string name="activity_wallet_export_keystore_copy_success">复制KEYSTORE到剪贴板！</string>
+    <string name="activity_wallet_export_private_copy_success">复制私钥到剪贴板！</string>
+    <string name="activity_wallet_export_btn_next">下一步</string>
+
+    <!-- 助记词确认 -->
+    <string name="verify_mnemonic_tip1">确认你的钱包助记词</string>
+    <string name="verify_mnemonic_tip2">请按顺序点击助记词，以确认你的备份助记词正确。</string>
+    <string name="verify_mnemonic_failed">验证失败，请检查你的助记词</string>
+    <string name="verify_mnemonic_success">验证成功</string>
+
+    <!-- 钱包转账 -->
+    <string name="activity_transaction">%1s转账</string>
+    <string name="activity_transaction_address">接收钱包地址</string>
+    <string name="activity_transaction_address_hint">请输入接收钱包地址</string>
+    <string name="activity_transaction_amount">转账数量(余额 %1$s %2$s)</string>
+    <string name="activity_transaction_amount_hint">请输入转账数量</string>
+    <string name="activity_transaction_mining">矿工费</string>
+    <string name="activity_transaction_mining_slow">慢</string>
+    <string name="activity_transaction_mining_fast">快</string>
+    <string name="activity_transaction_confirm">确认转账</string>
+    <string name="activity_transaction_mining_advance">advance</string>
+    <string name="activity_transaction_total_amount">总计费用</string>
+    <string name="activity_transaction_remark">备注</string>
+    <string name="activity_transaction_remark_hint">备注</string>
+    <string name="activity_transaction_gas_price">Gas Price</string>
+    <string name="activity_transaction_gas_price_hint">请输入Gas Price</string>
+    <string name="activity_transaction_gas_limit">Gas Limit</string>
+    <string name="activity_transaction_gas_limit_hint">请输入Gas</string>
+    <string name="activity_transaction_send_amount">%1s %2s</string>
+    <string name="activity_transaction_gas_amount">%1s ETH</string>
+    <string name="activity_transaction_gas_gwei">%1s gwei</string>
+    <string name="activity_transaction_error_address_length">发送地址是非法的钱包地址</string>
+    <string name="activity_transaction_error_receive_address_length">接收地址是非法的钱包地址</string>
+    <string name="activity_transaction_error_send_amount_format">转账数量无效, 请输入有效的数字！</string>
+    <string name="activity_transaction_error_send_amount">转账数量需大于0!</string>
+    <string name="activity_transaction_error_gas_price">GasPrice值无效,必须大于0!</string>
+    <string name="activity_transaction_error_gas_limit">GasLimit值不能小于%1s</string>
+    <string name="activity_transaction_error_password">请输入钱包密码</string>
+    <string name="activity_transaction_detail">支付详情</string>
+    <string name="activity_transaction_success">转账成功</string>
+
+    <!-- 钱包收款 -->
+    <string name="activity_wallet_receipt">收款</string>
+    <string name="activity_wallet_receipt_address">钱包地址</string>
+    <string name="activity_wallet_receipt_wallet_qrcode">钱包二维码</string>
+    <string name="activity_wallet_receipt_wallet_not_found">未能找到收款钱包</string>
+    <string name="activity_wallet_receipt_wallet_copy">复制钱包地址到剪贴板！</string>
+    <string name="activity_wallet_receipt_scan_qr_code">扫描二维码支付</string>
+    <string name="activity_wallet_receipt_amount">设置收款金额</string>
+    <string name="activity_wallet_receipt_copy">复制支付地址</string>
+
+    <!-- 交易记录 -->
+    <string name="activity_wallet_transaction_record_error">无法获取交易记录</string>
+    <string name="activity_wallet_transaction_record_asses">总资产</string>
+    <string name="activity_wallet_transaction_record_income">收入</string>
+    <string name="activity_wallet_transaction_record_error_status">出错</string>
+    <string name="activity_wallet_transaction_record_pay">支出</string>
+    <string name="activity_wallet_transaction_record_translate">-%1s</string>
+
+    <!-- 交易记录明细 -->
+    <string name="activity_transaction_record_detail">交易记录</string>
+    <string name="activity_transaction_record_type">类型</string>
+    <string name="activity_transaction_record_from">转出</string>
+    <string name="activity_transaction_record_to">转入</string>
+    <string name="activity_transaction_record_time">时间</string>
+    <string name="activity_transaction_record_remarks">备注</string>
+    <string name="activity_transaction_record_network">Network</string>
+    <string name="activity_transaction_record_block">Block #</string>
+    <string name="activity_transaction_record_gas_limit">Gas Limit</string>
+    <string name="activity_transaction_record_gas_price">Gas Price</string>
+    <string name="activity_transaction_record_transaction">Transaction #</string>
+    <string name="activity_transaction_record_transaction_success">成功</string>
+    <string name="activity_transaction_record_transaction_failed">出错</string>
+
+    <!--我的-->
+    <string name="fragment_me_upload_failed">上传头像尺寸过大</string>
+
+    <!--我的-->
+    <string name="activity_qr_scan">二维码扫描</string>
+
+    <!-- 添加好友 -->
+    <string name="activity_add_friend">添加好友</string>
+    <string name="activity_add_friend_local">搜索好友</string>
+    <string name="activity_add_friend_no_result">无结果</string>
+    <string name="activity_empty_keyword">请输入好友账号</string>
+    <string name="activity_add_friend_search_hint">请输入搜索账号</string>
+
+    <!-- 新的好友 -->
+    <string name="activity_new_friend">新的好友</string>
+    <string name="activity_new_friend_info">查看</string>
+    <string name="activity_new_friend_agree">同意</string>
+    <string name="activity_new_friend_both">已添加</string>
+    <string name="activity_new_friend_wait">等待验证</string>
+
+    <!-- 用户资料 -->
+    <string name="activity_user_info">用户资料</string>
+    <string name="activity_user_info_btn_send">发消息</string>
+    <string name="activity_user_info_btn_add">加好友</string>
+    <string name="activity_user_info_btn_receive">通过验证</string>
+    <string name="activity_user_info_btn_wait">已申请好友</string>
+    <string name="activity_user_info_send_success">发送请求成功</string>
+    <string name="activity_user_info_add_success">添加好友成功</string>
+    <string name="activity_user_info_delete">删除</string>
+    <string name="activity_user_info_delete_success">删除好友成功</string>
+
+    <!-- 聊天界面 -->
+    <string name="activity_chat_send">发送</string>
+    <string name="activity_chat_menu_copy">复制</string>
+
+    <!-- 聊天设置-->
+    <string name="activity_chat_setting">聊天信息</string>
+    <string name="activity_chat_setting_search_record">查找聊天内容</string>
+    <string name="activity_chat_setting_clear_record">清空聊天记录</string>
+    <string name="activity_chat_setting_clear_record_tip">确定清空聊天记录吗?</string>
+    <string name="activity_chat_setting_clear_success">清除成功</string>
+
+    <!-- 聊天搜索-->
+    <string name="activity_chat_search_hint">搜索</string>
+
+
+    <!-- 申请权限相关 -->
+    <string name="permission_settings">设置</string>
+
+    <string name="permission_help">帮助</string>
+
+    <string name="permission_string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+
+    <string name="permission_quit">取消</string>
+    <!-- 发现界面-->
+    <string name="sex">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="all">全部</string>
+    <string name="reset">重置</string>
+    <string name="determine">确定</string>
+
+    <string name="location">地区</string>
+
+    <string name="ablout_us_ablout_usdesc">Meshx是一个去中心化的万物互联生态，包含基于网状分布的众多网络接入点间的相互合作和协同，具有高速带宽、动态自组织、自配置、自维护等突出特点,兼具快速部署和易于安装、非视距传输(NLOS)等特性。</string>
+    <string name="ablout_us_other_content">Copyright 2016 ZMESH FOUNDATION SINGAPORE PTE.LTD. All right reserved</string>
+    <string name="ablout_us_version_check">检测新版本</string>
+    <string name="ablout_us_version_code">版本号 v%1$s</string>
+    <string name="ablout_us_other_other">Copyright 2016 ZMESH FOUNDATION SINGAPORE PTE.LTD. All right reserved</string>
+
+    <string name="setname_activity_editexthit">设置名称</string>
+    <string name="setname_activity_editexclear"> </string>
+</resources>
